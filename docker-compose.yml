@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   doxue-pc:
-    image: registry.cn-beijing.aliyuncs.com/hessian/node/14.18-pm2
+    image: registry.cn-beijing.aliyuncs.com/hessian/node:14.18-pm2
     volumes:
      - /Users/Shared/workspace/huixue/doxue/web/frontend-pc:/www
 

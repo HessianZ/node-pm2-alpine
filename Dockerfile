@@ -16,9 +16,11 @@ RUN set -x \
 # Expose ports needed to use Keymetrics.io
 EXPOSE 80 443 43554 3000
 
-VOLUME /www
+VOLUME /data
 
-WORKDIR /www
+VOLUME /conf
+
+WORKDIR /data
 
 # Start pm2.json process file
-CMD ["pm2-runtime", "start", "ecosystem.config.js"]
+#CMD ["pm2-runtime", "start", "./node_modules/nuxt/bin/nuxt.js"]
