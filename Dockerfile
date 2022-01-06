@@ -1,4 +1,4 @@
-FROM node:14.18.2-alpine3.15
+FROM node:16.13.1-alpine3.15
 
 # 参考 https://pm2.io/docs/runtime/integration/docker/
 RUN set -x \ 
